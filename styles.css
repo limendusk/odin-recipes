@@ -8,22 +8,47 @@ html {
 
 body {
     background-color: rgba(255, 235, 205, 0.500);
+    padding: 32px 20%;
+    font-family:'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align: center;
-    font-size: 32px;
     margin: 24px;
 }
 
-.list-container {
-    background-color: lightyellow ;
-    width: 480px;
-    padding: 8px;
+.list-container, .paragraph-container, .steps-container, .recipe-image {
     border: 2px solid black;
+}
+
+.list-container, .paragraph-container, .steps-container {
+    background-color: lightyellow;
+    padding: 8px;
     margin: 0px auto;
+    font-size: 20px;
+}
+
+.recipe-image {
+    display: block;
+    width: 480px;
+    margin: 0px auto;
+}
+
+.list-container {
+    width: 480px;
+}
+
+.ingredients-container {
+    margin: 0px;
 }
 
 .recipes-list {
     font-size: 24px;
+}
+
+.home-button {
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    font-size: 16px;
 }
